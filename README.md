@@ -76,52 +76,6 @@ $$
 
 ---
 
-## Installation
-
-```bash
-git clone <repo_url>
-cd <repo_dir>
-```
-
-### Create a virtual environment (optional but recommended)
-
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### Install dependencies
-
-```bash
-pip install matplotlib
-```
-
----
-
-## Usage Example
-
-```python
-from agent import Agent
-
-agent = Agent()
-agent.train(10000)  # Train for 10,000 episodes
-agent.save_model("model_test.pickle")  # Save model
-
-# Visualize learned path
-path = agent.walk()
-
-import matplotlib.pyplot as plt
-x_coords = [p[0] for p in path]
-y_coords = [-p[1] for p in path]  # Invert Y for proper plotting
-plt.scatter(x_coords, y_coords)
-plt.title("Learned Path from Start to Goal")
-plt.xlabel("X")
-plt.ylabel("-Y")
-plt.show()
-```
-
----
-
 ## Notes and Possible Extensions
 
 * **Discount Factor:** Currently $\gamma = 1$. Use $0 < \gamma < 1$ to emphasize shorter paths.
