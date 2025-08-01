@@ -35,7 +35,7 @@ This repository implements a simple Q-learning agent that learns to navigate a 1
 
    * Learning rate $\alpha = 0.5$.
    * Discount factor $\gamma = 1$ implicitly, since future rewards carry full weight.
-   * Reward $r = \frac{1000}{\text{total_time}}$ upon reaching the goal; 0 otherwise.
+   * Reward $r = \frac{1000}{\text{total_{time}}}$ upon reaching the goal; 0 otherwise.
 
 3. **Epsilon-greedy policy**:
 
