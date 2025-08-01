@@ -46,7 +46,7 @@ This repository implements a simple Q-learning agent that learns to navigate a 1
    \end{cases}
    $$
 
-   where $\epsilon = 0.1$.
+   where $\epsilon = 0.1$$.
 
 4. **State and Action Discretization**:
 
