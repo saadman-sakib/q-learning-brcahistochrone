@@ -1,4 +1,4 @@
-**Reinforcement Learning (Q-Learning) for Time-Optimal Path Planning (Brachistochrone)**
+# Reinforcement Learning (Q-Learning) for Time-Optimal Path Planning (Brachistochrone)
 
 ## Overview
 
