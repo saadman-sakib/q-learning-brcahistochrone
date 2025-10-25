@@ -37,7 +37,7 @@ $$
 
 * Learning rate: $\alpha = 0.5$
 * Discount factor: $\gamma = 1$ (future rewards fully weighted)
-* Reward $r = \frac{1000}{\text{total}_\text{time}}$ upon reaching the goal; otherwise 0
+* Reward $r = \frac{1000}{\text{time}_\text{total}}$ upon reaching the goal; otherwise 0
 
 ### 3. Epsilon-Greedy Policy
 
