@@ -11,9 +11,9 @@ This repository implements a simple Q-learning agent that learns to navigate a 1
 * **Actions:** Move right, up, or down by one cell.
 * **Reward:** Inverse of total time taken:
 
-  $$
-  R = \frac{C}{T}
-  $$
+$$
+R = \frac{C}{T}
+$$
 
   where $C = 1000$ is a scaling constant.
 * **Learning:** Q-learning with epsilon-greedy exploration.
